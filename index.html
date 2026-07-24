@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>China Tech Survival Guide | Real Tips for Travelers in China</title>
+  <meta name="description" content="The real, no-BS guide to surviving digital life in China: VPN, Alipay/WeChat Pay, DiDi, Amap, 12306, SIM cards, and every app you'll actually need. Written by locals, tested by travelers." />
+  <meta name="keywords" content="China travel, China VPN, Alipay for foreigners, WeChat Pay, DiDi, China apps, travel China, China survival guide" />
+  <meta name="author" content="China Tech Survival Guide" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="China Tech Survival Guide" />
+  <meta property="og:description" content="Real, up-to-date tips on payments, internet, apps & getting around China for foreign travelers." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="China Tech Survival Guide" />
+  <meta name="twitter:description" content="Real tips for travelers navigating digital life in China." />
+
+  <link rel="canonical" href="/" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "China Tech Survival Guide",
+    "url": "/",
+    "description": "Practical digital survival guide for foreign travelers in China: VPN, mobile payments, apps, transport, and more.",
+    "inLanguage": "en"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🧭</div>
+        <div class="logo-text">
+          China Tech Survival Guide
+          <small>Real tips · Tested by travelers</small>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#articles">Guides</a>
+        <a href="articles/must-have-apps-shanghai.html">Latest</a>
+        <a href="#about">About</a>
+        <div class="lang-switch">
+          <select id="language-selector" onchange="switchLanguage(this.value)">
+            <option value="en">&#x1F1EC;&#x1F1E7; EN</option>
+            <option value="ko">&#x1F1F0;&#x1F1F7; KO</option>
+            <option value="ja">&#x1F1EF;&#x1F1F5; JA</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>China isn't hard.<br/>The internet is.</h1>
+      <p>Google is blocked. Cash is dying. Nobody speaks English in DiDi. This is the playbook that gets you from airport WiFi to street-food checkout without the panic.</p>
+      <div class="hero-tags">
+        <span class="hero-tag">🔓 Reliable internet access</span>
+        <span class="hero-tag">💳 Alipay with foreign card</span>
+        <span class="hero-tag">🚕 DiDi without Chinese</span>
+        <span class="hero-tag">🚄 12306 for high-speed rail</span>
+        <span class="hero-tag">📱 Best eSIM & SIM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories + Articles -->
+  <section class="section" id="articles">
+    <div class="container">
+      <div class="section-title">📚 Browse guides</div>
+      <div class="section-subtitle">Explore by topic or follow your journey stage by stage.</div>
+
+      <!-- View tabs -->
+      <div class="view-tabs">
+        <button class="view-tab active" data-view="topic">By Topic</button>
+        <button class="view-tab" data-view="journey">By Journey</button>
+      </div>
+
+      <!-- Topic filter (original) -->
+      <div class="categories" id="topic-nav">
+        <button class="cat-chip active" data-cat="all">All</button>
+        <button class="cat-chip" data-cat="payment">💳 Payment</button>
+        <button class="cat-chip" data-cat="internet">🌐 Internet Access</button>
+        <button class="cat-chip" data-cat="transport">🚕 Transport</button>
+        <button class="cat-chip" data-cat="apps">📱 Essential Apps</button>
+        <button class="cat-chip" data-cat="arrival">✈️ Arrival & SIM</button>
+        <button class="cat-chip" data-cat="daily">🍜 Daily Life</button>
+      </div>
+
+      <!-- Journey stage timeline (new) -->
+      <div class="journey-timeline" id="journey-nav">
+        <div class="journey-stage active" data-stage="all">
+          <div class="stage-dot">🗺️</div>
+          <div class="stage-info"><div class="stage-label">All</div><div class="stage-sub">Everything</div></div>
+        </div>
+        <div class="journey-stage" data-stage="pre-arrival">
+          <div class="stage-dot">📦</div>
+          <div class="stage-info"><div class="stage-label">Pre-Arrival</div><div class="stage-sub">Before you fly</div></div>
+        </div>
+        <div class="journey-stage" data-stage="after-landing">
+          <div class="stage-dot">🛬</div>
+          <div class="stage-info"><div class="stage-label">After Landing</div><div class="stage-sub">First hours</div></div>
+        </div>
+        <div class="journey-stage" data-stage="during-trip">
+          <div class="stage-dot">🎯</div>
+          <div class="stage-info"><div class="stage-label">During Trip</div><div class="stage-sub">Living it</div></div>
+        </div>
+        <div class="journey-stage" data-stage="departure">
+          <div class="stage-dot">👋</div>
+          <div class="stage-info"><div class="stage-label">Departure</div><div class="stage-sub">Heading home</div></div>
+        </div>
+      </div>
+
+      <div class="articles-grid">
+
+        <!-- Card 0 - Pre-Trip Checklist (featured) -->
+        <a href="articles/pre-trip-checklist.html" class="article-card" data-cat="all" data-stage="pre-arrival" style="border: 2px solid var(--primary);">
+          <div class="card-cover c1" style="background: linear-gradient(135deg, #ff2442, #ff6b81);">✅<span class="card-category-badge">CHECKLIST</span></div>
+          <div class="card-body">
+            <div class="card-title" style="color: var(--primary);">📋 Complete Pre-Trip Checklist: Print Your China Travel To-Do List (PDF)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 3.2k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 1 - Must-have apps -->
+        <a href="articles/must-have-apps-shanghai.html" class="article-card" data-cat="apps transport payment" data-stage="pre-arrival,after-landing,during-trip">
+          <div class="card-cover c1">📱<span class="card-category-badge">ESSENTIAL APPS</span></div>
+          <div class="card-body">
+            <div class="card-title">Must-Have Apps Before You Land in Shanghai (2026 Update)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 1.2k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 2 - Alipay -->
+        <a href="articles/alipay-setup-foreigners.html" class="article-card" data-cat="payment" data-stage="pre-arrival,after-landing">
+          <div class="card-cover c3">💳<span class="card-category-badge">PAYMENT</span></div>
+          <div class="card-body">
+            <div class="card-title">How to Set Up Alipay for Foreigners in 2026 (Step-by-Step with Screenshots)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 1.4k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 3 - Staying Connected -->
+        <a href="articles/staying-connected-china.html" class="article-card" data-cat="internet" data-stage="pre-arrival">
+          <div class="card-cover c2">🌐<span class="card-category-badge">INTERNET</span></div>
+          <div class="card-body">
+            <div class="card-title">Staying Connected in China 2026: Internet Access for Travelers</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 2.4k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 4 - eSIM -->
+        <a href="articles/best-esim-china.html" class="article-card" data-cat="arrival" data-stage="pre-arrival">
+          <div class="card-cover c4">📶<span class="card-category-badge">eSIM & SIM</span></div>
+          <div class="card-body">
+            <div class="card-title">Best eSIM for China in 2026: Airalo vs Nomad vs Saily vs Holafly (Tested)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 890</div></div>
+          </div>
+        </a>
+
+        <!-- Card 5 - Arrival process -->
+        <a href="articles/arrival-process-guide.html" class="article-card" data-cat="arrival" data-stage="after-landing">
+          <div class="card-cover c5">✈️<span class="card-category-badge">ARRIVAL</span></div>
+          <div class="card-body">
+            <div class="card-title">Arriving in China: Step-by-Step Airport Guide (Pudong, Capital, Daxing)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 720</div></div>
+          </div>
+        </a>
+
+        <!-- Card 6 - DiDi -->
+        <a href="articles/didi-guide.html" class="article-card" data-cat="transport" data-stage="during-trip">
+          <div class="card-cover c6">🚕<span class="card-category-badge">TRANSPORT</span></div>
+          <div class="card-body">
+            <div class="card-title">Using DiDi in China: Full English Guide for Foreigners (2026)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 1.2k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 7 - Hotel -->
+        <a href="articles/hotel-checkin-guide.html" class="article-card" data-cat="daily" data-stage="after-landing,departure">
+          <div class="card-cover c2">🏨<span class="card-category-badge">HOTELS</span></div>
+          <div class="card-body">
+            <div class="card-title">China Hotel Check-In Guide for Foreigners: Booking, Deposits, and the "Foreign License" Trap</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 610</div></div>
+          </div>
+        </a>
+
+        <!-- Card 8 - Restaurant dining -->
+        <a href="articles/restaurant-dining-guide.html" class="article-card" data-cat="daily" data-stage="during-trip">
+          <div class="card-cover c3">🍜<span class="card-category-badge">FOOD</span></div>
+          <div class="card-body">
+            <div class="card-title">How to Eat in China Without Reading Chinese: QR Menus, Pointing, and Dishes to Order Blind</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 1.1k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 9 - Metro -->
+        <a href="articles/metro-guide.html" class="article-card" data-cat="transport" data-stage="during-trip">
+          <div class="card-cover c1">🚇<span class="card-category-badge">TRANSPORT</span></div>
+          <div class="card-body">
+            <div class="card-title">How to Use the Metro in China: Tickets, Alipay QR, Apps & Route Maps (2026)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 1.3k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 10 - High-speed rail -->
+        <a href="articles/high-speed-rail-guide.html" class="article-card" data-cat="transport" data-stage="pre-arrival,during-trip">
+          <div class="card-cover c4">🚄<span class="card-category-badge">TRAINS</span></div>
+          <div class="card-body">
+            <div class="card-title">How to Buy China High-Speed Train Tickets as a Foreigner (12306 & Trip.com)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 1.8k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 11 - Bike sharing -->
+        <a href="articles/bike-sharing-guide.html" class="article-card" data-cat="transport" data-stage="during-trip">
+          <div class="card-cover c5">🚲<span class="card-category-badge">TRANSPORT</span></div>
+          <div class="card-body">
+            <div class="card-title">China Bike-Sharing Guide: Meituan vs Hellobike vs DiDi Qingju (2026)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 740</div></div>
+          </div>
+        </a>
+
+        <!-- Card 12 - Food delivery -->
+        <a href="articles/food-delivery-guide.html" class="article-card" data-cat="apps daily" data-stage="during-trip">
+          <div class="card-cover c2">🛵<span class="card-category-badge">DELIVERY</span></div>
+          <div class="card-body">
+            <div class="card-title">How to Order Food Delivery in China: Meituan & Ele.me for Foreigners</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 1.6k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 13 - Dianping & Xiaohongshu -->
+        <a href="articles/dianping-xiaohongshu-guide.html" class="article-card" data-cat="apps daily" data-stage="during-trip">
+          <div class="card-cover c1">⭐<span class="card-category-badge">LOCAL APPS</span></div>
+          <div class="card-body">
+            <div class="card-title">How to Use Dianping & Xiaohongshu in China (No Chinese Required)</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 2.1k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 14 - Coffee & bubble tea -->
+        <a href="articles/coffee-bubbletea-guide.html" class="article-card" data-cat="daily" data-stage="during-trip">
+          <div class="card-cover c3">☕<span class="card-category-badge">COFFEE & TEA</span></div>
+          <div class="card-body">
+            <div class="card-title">How to Order Coffee & Bubble Tea in China: Luckin, HeyTea, Chagee & More</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 830</div></div>
+          </div>
+        </a>
+
+        <!-- Card 15 - Attraction booking -->
+        <a href="articles/attraction-booking-guide.html" class="article-card" data-cat="apps" data-stage="pre-arrival,during-trip">
+          <div class="card-cover c4">🎫<span class="card-category-badge">ATTRACTIONS</span></div>
+          <div class="card-body">
+            <div class="card-title">How to Book China Attraction Tickets as a Foreigner: Trip.com & Passport Workarounds</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 2.8k</div></div>
+          </div>
+        </a>
+
+        <!-- Card 16 - Internet safety -->
+        <a href="articles/internet-safety-guide.html" class="article-card" data-cat="internet" data-stage="pre-arrival">
+          <div class="card-cover c5">🔒<span class="card-category-badge">SAFETY</span></div>
+          <div class="card-body">
+            <div class="card-title">Internet Safety for Foreign Travelers in China: WiFi, QR Scams & Data Privacy</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 940</div></div>
+          </div>
+        </a>
+
+        <!-- Card 17 - Internet regulations -->
+        <a href="articles/internet-regulations-guide.html" class="article-card" data-cat="internet" data-stage="pre-arrival">
+          <div class="card-cover c6">📋<span class="card-category-badge">COMPLIANCE</span></div>
+          <div class="card-body">
+            <div class="card-title">China Internet Regulations: What Foreign Travelers Need to Know Before Visiting</div>
+            <div class="card-meta"><div class="author"><div class="avatar">CT</div> City Tech Team</div><div class="card-likes">♥ 1.3k</div></div>
+          </div>
+        </a>
+
+      </div>
+
+      <div style="text-align:center; margin-top:32px; color:var(--text-muted); font-size:14px;">
+        More guides coming every week — follow along.
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about" style="background: var(--bg); padding: 48px 0; border-top: 1px solid var(--border);">
+    <div class="container" style="max-width: 680px;">
+      <div class="section-title">👋 About this guide</div>
+      <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px;">
+        We're a small team based in Shanghai. Every guide here is written after actually doing the thing — downloading the app, linking the card, hailing the DiDi, getting scammed at the tea house. No sponsored fluff, no outdated 2019 info.
+      </p>
+      <p style="color: var(--text-secondary); line-height: 1.8;">
+        If a process changed yesterday, we update it today. If an app works in Beijing but not in Chengdu, we say so. That's it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="margin-bottom:8px;">
+            <div class="logo-icon">🧭</div>
+            <div class="logo-text">China Tech Survival Guide</div>
+          </div>
+          <p>The real, no-BS playbook for foreign travelers navigating digital life in China. Updated weekly.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Topics</h4>
+          <a href="#">Internet Access</a>
+          <a href="#">Payment</a>
+          <a href="#">Transport</a>
+          <a href="#">Essential Apps</a>
+        </div>
+        <div class="footer-col">
+          <h4>Site</h4>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy Policy</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 China Tech Survival Guide</span>
+        <span>Made with ❤️ in Shanghai</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Simple filter script -->
+  <script>
+    // ===== View tab switching =====
+    document.querySelectorAll('.view-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        var view = tab.dataset.view;
+        var topicNav = document.getElementById('topic-nav');
+        var journeyNav = document.getElementById('journey-nav');
+        if (view === 'topic') {
+          topicNav.classList.remove('hidden');
+          journeyNav.classList.remove('visible');
+          document.querySelectorAll('.journey-stage').forEach(s => s.classList.remove('active'));
+          document.querySelector('.journey-stage[data-stage="all"]').classList.add('active');
+        } else {
+          topicNav.classList.add('hidden');
+          journeyNav.classList.add('visible');
+          document.querySelectorAll('.cat-chip').forEach(c => c.classList.remove('active'));
+          document.querySelector('.cat-chip[data-cat="all"]').classList.add('active');
+        }
+        document.querySelectorAll('.article-card').forEach(card => card.style.display = '');
+      });
+    });
+
+    // ===== Topic filtering =====
+    document.querySelectorAll('.cat-chip').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.cat-chip').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        var cat = btn.dataset.cat;
+        document.querySelectorAll('.article-card').forEach(card => {
+          if (cat === 'all' || (card.dataset.cat || '').indexOf(cat) !== -1) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // ===== Journey stage filtering =====
+    document.querySelectorAll('.journey-stage').forEach(stage => {
+      stage.addEventListener('click', () => {
+        document.querySelectorAll('.journey-stage').forEach(s => s.classList.remove('active'));
+        stage.classList.add('active');
+        var stg = stage.dataset.stage;
+        document.querySelectorAll('.article-card').forEach(card => {
+          if (stg === 'all' || (card.dataset.stage || '').indexOf(stg) !== -1) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+<div id="google_translate_element" style="display:none;"></div>
+<script src="js/lang.js"></script>
+</body>
+</html>
