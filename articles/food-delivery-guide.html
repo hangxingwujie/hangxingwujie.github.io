@@ -36,7 +36,8 @@
     </div>
   </header>
   <main class="article-page">
-    <div class="container" style="max-width: 800px;">
+    <div class="container article-layout">
+      <div class="article-main">
       <a href="../index.html" class="back-link">← Back to all guides</a>
       <div class="article-header">
         <span class="article-cat">🍜 FOOD & DELIVERY</span>
@@ -54,7 +55,7 @@
           Neither Meituan nor Ele.me has an English interface. But you don't need to read menus — you use Google Translate's camera mode pointed at your phone screen. We'll show you exactly how.
         </div>
 
-        <h2>Step 1 — Choose your app</h2>
+        <h2 id="step-1-choose-your-app">Step 1 — Choose your app</h2>
 
         <div class="app-grid">
           <div class="app-card-item"><div class="app-head"><div class="app-icon orange">🟠</div><h4>Meituan (美团)</h4></div><div class="app-desc">The dominant player. More restaurants, slightly harder interface (busy homepage). Yellow app icon. Used by 75%+ of food delivery in China.</div></div>
@@ -65,7 +66,7 @@
 
         <div class="tip-box"><div class="tip-label">💡 Save space</div>You don't need either app installed. Open Alipay, search "Meituan" or "Ele.me" in the search bar, and tap the mini-program. It's the full app functionality without downloading anything. The mini-program also auto-fills your Alipay delivery address.</div>
 
-        <h2>Step 2 — Set your delivery address</h2>
+        <h2 id="step-2-set-your-delivery-address">Step 2 — Set your delivery address</h2>
 
         <p>This is the single most important step. If the address is wrong, your noodles go to someone else.</p>
 
@@ -78,7 +79,7 @@
 
         <div class="tip-box warn"><div class="tip-label">⚠️ The hotel lobby problem</div>Most delivery drivers can't enter hotel elevators (they need a room key). Your food will be left at the front desk, or the driver will call you. If you get a call from an unknown Chinese number, it's the driver. They'll say "waimai" (why-my — delivery) or "da le" (dah luh — arrived). Say "lobby — xiexie" and go downstairs. If a hotel has a delivery robot, it'll come to your door — no interaction needed.</div>
 
-        <h2>Step 3 — Browse and order</h2>
+        <h2 id="step-3-browse-and-order">Step 3 — Browse and order</h2>
 
         <div class="steps">
           <div class="step"><div class="step-num">1</div><div class="step-body"><strong>Tap the food category (外卖 / 美食)</strong><p>This opens the restaurant grid. Each card shows: cover photo of food, restaurant name, rating in stars, delivery time in minutes, delivery fee.</p></div></div>
@@ -87,7 +88,7 @@
           <div class="step"><div class="step-num">4</div><div class="step-body"><strong>Watch three signals when picking a restaurant</strong><p><strong>⭐ 4.5+ stars with 500+ reviews:</strong> reliably good. <strong>⏱️ 25-35 min delivery time:</strong> normal (shorter = closer, longer = further). <strong>📦 ¥0-5 delivery fee:</strong> most deliver nearly free within 3 km.</p></div></div>
         </div>
 
-        <h2>Step 4 — Pay and track</h2>
+        <h2 id="step-4-pay-and-track">Step 4 — Pay and track</h2>
 
         <div class="steps">
           <div class="step"><div class="step-num">1</div><div class="step-body"><strong>Tap the basket icon, review your order, tap "Submit" (提交订单)</strong><p>You'll see the total: food + delivery fee + packaging fee (a ¥1-3 box-fee surcharge on every item — normal and non-negotiable). The total for a typical meal: ¥25-50 ($3.50-$7).</p></div></div>
@@ -95,7 +96,7 @@
           <div class="step"><div class="step-num">3</div><div class="step-body"><strong>Watch the live GPS tracking</strong><p>The app shows a map with a tiny scooter icon moving towards you. You'll see "rider accepted order" → "restaurant is preparing" → "rider has picked up" → "rider is approaching." It's weirdly addictive. Delivery usually takes 25-40 minutes.</p></div></div>
         </div>
 
-        <h2>Pro tips for smooth delivery</h2>
+        <h2 id="pro-tips-for-smooth-delivery">Pro tips for smooth delivery</h2>
 
         <ul>
           <li><strong>Order 30-45 minutes before you want to eat.</strong> Food arrives hot because riders are fast and the containers are sealed.</li>
@@ -106,7 +107,7 @@
           <li><strong>Late-night ordering:</strong> Delivery coverage drops after 10 PM in smaller cities but is 24/7 in Shanghai, Beijing, Shenzhen.</li>
         </ul>
 
-        <h2>Common problems</h2>
+        <h2 id="common-problems">Common problems</h2>
 
         <h3>The driver can't find me</h3>
         <p>Open the app → the order screen has a "contact rider" button (联系骑手) — tap it, then tap the phone icon that appears. It calls the driver. The conversation goes: they say "waimai" (delivery), you say "lobby" or "front desk." Hang up. They'll find you.</p>
@@ -122,6 +123,29 @@
         <div class="tip-box"><div class="tip-label">📝 Next</div>Once you've mastered delivery, learn to <a href="coffee-bubbletea-guide.html">order coffee and bubble tea like a local</a> — and use <a href="dianping-xiaohongshu-guide.html">Dianping and Xiaohongshu</a> to discover the restaurants worth visiting in person.</div>
 
       </article>
+      <div class="action-bar">
+        <button><span class="heart">&#9829;</span> Save</button>
+        <button>&#8599; Share</button>
+        <button>&#128172; Comment</button>
+      </div>
+      </div><!-- /article-main -->
+      <aside class="article-sidebar">
+        <div class="toc">
+          <h4>In this guide</h4>
+          <ul>
+            <li><a href="#step-1-choose-your-app">Step 1 — Choose your app</a></li>
+            <li><a href="#step-2-set-your-delivery-address">Step 2 — Set your delivery address</a></li>
+            <li><a href="#step-3-browse-and-order">Step 3 — Browse and order</a></li>
+            <li><a href="#step-4-pay-and-track">Step 4 — Pay and track</a></li>
+            <li><a href="#pro-tips-for-smooth-delivery">Pro tips for smooth delivery</a></li>
+            <li><a href="#common-problems">Common problems</a></li>
+          </ul>
+        </div>
+        <div class="toc-save">
+          <p>Found this useful?</p>
+          <button class="save-btn">Save guide</button>
+        </div>
+      </aside>
     </div>
   </main>
   <footer class="site-footer">
