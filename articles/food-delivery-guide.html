@@ -35,7 +35,8 @@
   <header class="site-header">
     <div class="container">
       <a href="../index.html" class="logo"><div class="logo-icon">🧭</div><div class="logo-text">China Tech Survival Guide<small>Real tips · Tested by travelers</small></div></a>
-      <nav class="nav">
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span><span></span><span></span></button>
+      <nav class="nav" id="site-nav">
         <a href="../index.html">Home</a><a href="../index.html#articles" class="active">Guides</a><a href="../index.html#about">About</a>
         <div class="lang-switch"><select id="language-selector" onchange="switchLanguage(this.value)"><option value="en">&#x1F1EC;&#x1F1E7; EN</option><option value="ko">&#x1F1F0;&#x1F1F7; KO</option><option value="ja">&#x1F1EF;&#x1F1F5; JA</option></select></div>
       </nav>
@@ -166,6 +167,7 @@
   </footer>
 <div id="google_translate_element" style="display:none;"></div>
 <script src="../js/lang.js"></script>
+<script src="../js/nav.js"></script>
 <script src="../js/save.js"></script>
 </body>
 </html>
