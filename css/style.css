@@ -727,7 +727,9 @@ img { max-width: 100%; height: auto; display: block; }
   font-family: inherit;
 }
 .action-bar button:hover { color: var(--primary); }
-.action-bar .heart { color: var(--primary); }
+.action-bar .heart { color: var(--text-muted); }
+.action-bar button.saved, .action-bar button.saved .heart { color: var(--primary); }
+.save-btn.saved { background: var(--primary-light); }
 
 /* Anchor offset under sticky header */
 .article-content h2, .article-content h3 { scroll-margin-top: 90px; }
