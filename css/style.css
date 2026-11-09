@@ -830,3 +830,179 @@ img { max-width: 100%; height: auto; display: block; }
   }
   .nav .lang-switch select { width: 100%; }
 }
+
+/* ========== Guestbook ========== */
+.gb-intro {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.gb-form {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 32px;
+}
+.gb-field { margin-bottom: 16px; }
+.gb-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 7px;
+}
+.gb-optional { font-weight: 400; color: var(--text-muted); }
+
+.gb-input, .gb-textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--text);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 11px 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.gb-input:focus, .gb-textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(255, 36, 66, 0.1);
+}
+.gb-textarea { resize: vertical; min-height: 110px; line-height: 1.6; }
+
+.gb-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.gb-counter.warn { color: #d97706; }
+.gb-counter.over { color: var(--primary); font-weight: 600; }
+
+.gb-submit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 28px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+.gb-submit:hover:not(:disabled) { background: var(--primary-light); }
+.gb-submit:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.gb-status {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  border-radius: var(--radius-md);
+  padding: 11px 14px;
+  display: none;
+}
+.gb-status.show { display: block; }
+.gb-status.ok { background: #eefbf3; color: #3b6d11; }
+.gb-status.err { background: var(--primary-bg); color: #a32d2d; }
+.gb-status.info { background: var(--bg-soft); color: var(--text-secondary); }
+
+.gb-count {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.gb-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gb-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+}
+.gb-item-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.gb-avatar {
+  width: 32px; height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--primary-bg);
+  color: var(--primary);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 700;
+}
+.gb-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+.gb-time {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-left: auto;
+  white-space: nowrap;
+}
+.gb-msg {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.gb-empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+  background: var(--bg-soft);
+  border-radius: var(--radius-md);
+}
+
+.gb-loadmore {
+  display: block;
+  margin: 20px auto 0;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 10px 24px;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+.gb-loadmore:hover { border-color: var(--primary); color: var(--primary); }
+
+/* Skeletons while loading */
+.gb-skel {
+  height: 76px;
+  border-radius: var(--radius-md);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+}
+
+@media (max-width: 640px) {
+  .gb-form { padding: 18px 16px; }
+  .gb-submit { width: 100%; justify-content: center; }
+  .gb-time { font-size: 11px; }
+}
