@@ -1006,3 +1006,55 @@ img { max-width: 100%; height: auto; display: block; }
   .gb-submit { width: 100%; justify-content: center; }
   .gb-time { font-size: 11px; }
 }
+
+/* Comments block embedded in article pages */
+.gb-comments {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+.gb-comments-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.gb-comments .gb-form { margin-top: 18px; margin-bottom: 26px; }
+
+.gb-page-tag {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--primary-bg);
+  padding: 3px 9px;
+  border-radius: 10px;
+  white-space: nowrap;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gb-page-tag:hover { color: #fff; background: var(--primary); }
+
+/* Prominent Guestbook entry in the header nav */
+.nav a.nav-cta {
+  background: var(--primary);
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 18px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.nav a.nav-cta:hover { background: var(--primary-light); color: #fff; }
+.nav a.nav-cta.active { background: var(--primary); color: #fff; }
+
+@media (max-width: 768px) {
+  .nav a.nav-cta {
+    display: inline-flex;
+    justify-content: center;
+    margin: 8px 0 0;
+    padding: 11px 15px;
+    border-radius: var(--radius-md);
+  }
+  .gb-comments { margin-top: 32px; padding-top: 22px; }
+  .gb-comments-title { font-size: 18px; }
+}

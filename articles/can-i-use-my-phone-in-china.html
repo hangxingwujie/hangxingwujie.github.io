@@ -54,7 +54,7 @@
         <a href="../index.html">Home</a>
         <a href="../index.html#articles" class="active">Guides</a>
         <a href="../index.html#about">About</a>
-        <a href="../guestbook.html">Guestbook</a>
+        <a href="../guestbook.html" class="nav-cta">Guestbook</a>
         <div class="lang-switch">
           <select id="language-selector" onchange="switchLanguage(this.value)">
             <option value="en">&#x1F1EC;&#x1F1E7; EN</option>
@@ -226,8 +226,11 @@
       <div class="action-bar">
         <button class="action-save" data-slug="can-i-use-my-phone-in-china"><span class="heart">&#9829;</span> <span class="save-label">Save</span></button>
         <button>&#8599; Share</button>
-        <button>&#128172; Comment</button>
+        <button type="button" onclick="var c=document.getElementById(&quot;comments&quot;);if(c){c.scrollIntoView({behavior:&quot;smooth&quot;,block:&quot;start&quot;});var t=c.querySelector(&quot;textarea&quot;);if(t){setTimeout(function(){t.focus();},450);}}">&#128172; Comment</button>
       </div>
+      
+      <div id="comments"></div>
+      <script>document.addEventListener("DOMContentLoaded",function(){if(window.CtsComments){CtsComments.mount(document.getElementById("comments"),{mode:"page",page:"can-i-use-my-phone-in-china",heading:"Comments & questions"});}});</script>
       </div><!-- /article-main -->
       <aside class="article-sidebar">
         <div class="toc">
@@ -285,5 +288,6 @@
 <script src="../js/lang.js"></script>
 <script src="../js/nav.js"></script>
 <script src="../js/save.js"></script>
+<script src="../js/comments.js"></script>
 </body>
 </html>

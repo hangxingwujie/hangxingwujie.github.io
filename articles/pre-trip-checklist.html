@@ -104,7 +104,7 @@
 <body>
   <header class="site-header"><div class="container"><a href="../index.html" class="logo"><div class="logo-icon">🧭</div><div class="logo-text">China Tech Survival Guide<small>Real tips · Tested by travelers</small></div></a><button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span><span></span><span></span></button>
       <nav class="nav" id="site-nav"><a href="../index.html">Home</a><a href="../index.html#articles" class="active">Guides</a><a href="../index.html#about">About</a>
-          <a href="../guestbook.html">Guestbook</a><div class="lang-switch"><select id="language-selector" onchange="switchLanguage(this.value)"><option value="en">&#x1F1EC;&#x1F1E7; EN</option><option value="ko">&#x1F1F0;&#x1F1F7; KO</option><option value="ja">&#x1F1EF;&#x1F1F5; JA</option></select></div></nav></div></header>
+          <a href="../guestbook.html" class="nav-cta">Guestbook</a><div class="lang-switch"><select id="language-selector" onchange="switchLanguage(this.value)"><option value="en">&#x1F1EC;&#x1F1E7; EN</option><option value="ko">&#x1F1F0;&#x1F1F7; KO</option><option value="ja">&#x1F1EF;&#x1F1F5; JA</option></select></div></nav></div></header>
   <main class="article-page"><div class="container article-layout">
       <div class="article-main"><a href="../index.html" class="back-link">← Back to all guides</a>
     <div class="article-header"><span class="article-cat">✅ CHECKLIST</span><h1>China Travel Pre-Trip Checklist for Foreigners (2026)</h1><div class="article-meta"><div class="author-line"><div class="avatar-lg">CT</div><div><div class="author-name">City Tech Team</div><div class="updated">Updated July 24, 2026 · Printable PDF</div></div></div></div></div>
@@ -209,8 +209,11 @@
       <div class="action-bar">
         <button class="action-save" data-slug="pre-trip-checklist"><span class="heart">&#9829;</span> <span class="save-label">Save</span></button>
         <button>&#8599; Share</button>
-        <button>&#128172; Comment</button>
+        <button type="button" onclick="var c=document.getElementById(&quot;comments&quot;);if(c){c.scrollIntoView({behavior:&quot;smooth&quot;,block:&quot;start&quot;});var t=c.querySelector(&quot;textarea&quot;);if(t){setTimeout(function(){t.focus();},450);}}">&#128172; Comment</button>
       </div>
+      
+      <div id="comments"></div>
+      <script>document.addEventListener("DOMContentLoaded",function(){if(window.CtsComments){CtsComments.mount(document.getElementById("comments"),{mode:"page",page:"pre-trip-checklist",heading:"Comments & questions"});}});</script>
       </div><!-- /article-main -->
       <aside class="article-sidebar">
         <div class="toc">
@@ -239,5 +242,6 @@
 <div id="google_translate_element" style="display:none;"></div><script src="../js/lang.js"></script>
 <script src="../js/nav.js"></script>
 <script src="../js/save.js"></script>
+<script src="../js/comments.js"></script>
 </body>
 </html>
