@@ -1,6 +1,11 @@
 /* ============================================
    China Tech Survival Guide - Global Styles
    Style: Xiaohongshu-inspired real-sharing card layout
+
+   ⚠ SOURCE OF TRUTH — but pages load style.min.css, NOT this file.
+   After editing here, regenerate the served file:
+       python3 ../output/minify_css.py
+   (the script proves the output is whitespace-equivalent before writing)
    ============================================ */
 
 :root {
