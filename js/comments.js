@@ -317,6 +317,14 @@
           updateCounter();
           showStatus('ok', 'Posted. Thanks for adding to the guide.');
 
+          if (window.CtsTrack) {
+            window.CtsTrack('comment_submit', {
+              source_page: mode === 'page' ? pageSlug : 'guestbook',
+              mode: mode,
+              length: message.length
+            });
+          }
+
           if (rows && rows.length) {
             var emptyNode = listEl.querySelector('.gb-empty');
             if (emptyNode) listEl.innerHTML = '';

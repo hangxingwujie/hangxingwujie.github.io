@@ -1173,3 +1173,24 @@ img { max-width: 100%; height: auto; display: block; }
   .city-name { font-size: 19px; }
   .city-emoji { font-size: 28px; }
 }
+
+/* ========== 404 page ========== */
+.e404-code {
+  font-size: 40px;
+  line-height: 1.1;
+  margin: 40px 0 12px;
+  letter-spacing: -1px;
+}
+.e404-lead {
+  font-size: 17px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+.e404-sub {
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+.e404-foot {
+  margin: 32px 0 40px;
+  color: var(--text-secondary);
+}

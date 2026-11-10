@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://hangxingwujie.github.io/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/pre-trip-checklist.html</loc><priority>0.9</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/alipay-setup-foreigners.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/arrival-process-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/attraction-booking-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/best-esim-china.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/bike-sharing-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/can-i-use-my-phone-in-china.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/coffee-bubbletea-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/dianping-xiaohongshu-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/didi-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/food-delivery-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/high-speed-rail-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/hotel-checkin-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/internet-regulations-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/internet-safety-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/metro-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/must-have-apps-shanghai.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/renting-a-car-in-china.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/restaurant-dining-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/spring-festival-china-guide.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/articles/staying-connected-china.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/cities.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/cities/beijing.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/cities/shanghai.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/cities/xian.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/cities/chongqing.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/cities/chengdu.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/cities/guangzhou.html</loc><priority>0.8</priority></url>
-<url><loc>https://hangxingwujie.github.io/guestbook.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
-<url><loc>https://hangxingwujie.github.io/disclaimer.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-<url><loc>https://hangxingwujie.github.io/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://hangxingwujie.github.io/</loc><lastmod>2026-11-10</lastmod><priority>1.0</priority></url>
+  <url><loc>https://hangxingwujie.github.io/cities.html</loc><lastmod>2026-11-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/pre-trip-checklist.html</loc><lastmod>2026-11-10</lastmod><priority>0.9</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/alipay-setup-foreigners.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/arrival-process-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/attraction-booking-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/best-esim-china.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/bike-sharing-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/can-i-use-my-phone-in-china.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/coffee-bubbletea-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/dianping-xiaohongshu-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/didi-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/food-delivery-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/high-speed-rail-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/hotel-checkin-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/internet-regulations-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/internet-safety-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/metro-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/must-have-apps-shanghai.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/renting-a-car-in-china.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/restaurant-dining-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/spring-festival-china-guide.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/articles/staying-connected-china.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/cities/beijing.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/cities/chengdu.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/cities/chongqing.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/cities/guangzhou.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/cities/shanghai.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/cities/xian.html</loc><lastmod>2026-11-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://hangxingwujie.github.io/guestbook.html</loc><lastmod>2026-11-10</lastmod><priority>0.3</priority></url>
+  <url><loc>https://hangxingwujie.github.io/privacy-policy.html</loc><lastmod>2026-11-10</lastmod><priority>0.3</priority></url>
+  <url><loc>https://hangxingwujie.github.io/disclaimer.html</loc><lastmod>2026-11-10</lastmod><priority>0.3</priority></url>
 </urlset>

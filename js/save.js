@@ -47,8 +47,14 @@
     var btn = e.target && e.target.closest ? e.target.closest('button[data-slug]') : null;
     if (!btn) return;
     var slug = btn.getAttribute('data-slug');
-    toggle(slug);
+    var nowSaved = toggle(slug);
     render(slug);
+    if (window.CtsTrack) {
+      window.CtsTrack('save_guide', {
+        guide: slug,
+        action: nowSaved ? 'save' : 'unsave'
+      });
+    }
   });
 
   document.querySelectorAll('button[data-slug]').forEach(function (el) {

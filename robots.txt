@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml
+# 404 page is noindex; no need to crawl it.
+Disallow: /404.html
+
+Sitemap: https://hangxingwujie.github.io/sitemap.xml
